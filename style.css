@@ -7,16 +7,72 @@ body{
     background-image: url(../images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     display: flex;
-    
 }
+.whole{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.left{
+    width: 50%;
+    color: white;
+    padding: 100px;
+}
+.right{
+    flex: 50%;
+    /* padding: 200px; */
+    margin:100px;
+}
+.cvd {
+    background-color: hsl(249, 32%, 49%);
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    margin: 2%;
+    border-radius: 10px;
+}
+input{
+    padding: 10px 30px;
+    width: 100%;
+    border: 1px solid rgb(245, 239, 239);
+    border-radius: 10px;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 10px 40px;
+    width: 100%;
+    border: 1px solid hsl(154, 59%, 51%);
+    border-radius: 10px;
+}
+.lst{
+    color: rgb(218, 213, 213);
+    text-align: center;
+    padding: 10px 46px;
+}
+a:link{
+    text-decoration: none;
+    color: red;
+    font-size: smaller;
+}
+
+
+
+/* }
 .left{
     color: white;
     padding: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 0%;
 }
-
 .right{
     display: flex;
     flex-direction: column;
@@ -28,7 +84,7 @@ body{
     color: aliceblue;
     margin: 20px;
     padding: 10px 40px;
-    width: 110%;
+    width: 20%;
 }
 form{
     background-color: white;
@@ -41,4 +97,4 @@ button{
     background-color: hsl(154, 59%, 51%);
     color: white;
     padding: 10px 30px;
-}
+} */
