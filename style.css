@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    
+}
+.left{
+    color: white;
+    padding: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+}
+.cvd {
+    background-color: hsl(249, 32%, 49%);
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px 40px;
+    width: 110%;
+}
+form{
+    background-color: white;
+    padding: 30px;
+}
+input{
+    padding: 10px 30px
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 10px 30px;
+}
