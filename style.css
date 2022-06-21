@@ -70,14 +70,10 @@ a:link{
     div {
         display: flex;
         flex-direction: column;
-    }  
-}
-@media screen and (orientation: portrait) {
-    .left {
-        display: flex;
         padding: 100px;
     }  
 }
+
 
 /* }
 .left{
