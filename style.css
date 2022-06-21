@@ -63,7 +63,7 @@ a:link{
 }
 @media screen and (max-width: 50%) {
     body {
-        background-image: url(../images/bg-intro-mobile.png);        
+        background-image: url(bg-intro-mobile.png);        
     }  
 }
 @media screen and (orientation: portrait) {
@@ -75,7 +75,7 @@ a:link{
 @media screen and (orientation: portrait) {
     .left {
         display: flex;
-        padding: 30px;
+        padding: 100px;
     }  
 }
 
