@@ -61,7 +61,16 @@ a:link{
     color: red;
     font-size: smaller;
 }
-
+@media screen and (max-width: 50%) {
+    body {
+        background-image: url(../images/bg-intro-mobile.png);        
+    }  
+}
+@media screen and (orientation: portrait) {
+    div {
+        display: flex;
+        flex-direction: column;
+    }  
 
 
 /* }
